@@ -1,17 +1,37 @@
+import './index.css';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Book from './Book'
+import {books} from './books'
+// const title = "I Will Teach You to Be Rich"
+// const author = "Ramit Sethi"
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+
+
+
+
+
+function Booklist() {
+   
+    return (
+      
+      <div className='wrapper'>
+
+        <div className='header'>
+          <h1>Best Sellers</h1>
+       </div>
+      
+        <section className="booklist">
+          {books.map((book, index) => {
+          return <Book {...book} key={book.id} number={index}/>;
+          })}
+       </section>
+      </div>
+    );
+  }
+
+
+const root = ReactDOM.createRoot(document.getElementById('root'))
+root.render(<Booklist/>)
