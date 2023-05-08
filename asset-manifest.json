@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/B-MCode/topbooks/static/css/main.89cc2393.css",
+    "main.js": "/B-MCode/topbooks/static/js/main.9c54f6e1.js",
+    "static/media/img2.jpg": "/B-MCode/topbooks/static/media/img2.1f82b964c0417219db1c.jpg",
+    "static/media/img1.jpg": "/B-MCode/topbooks/static/media/img1.9ff52fe52b013282e880.jpg",
+    "static/media/img3.jpg": "/B-MCode/topbooks/static/media/img3.02086a6be4efdfc1e25a.jpg",
+    "index.html": "/B-MCode/topbooks/index.html",
+    "main.89cc2393.css.map": "/B-MCode/topbooks/static/css/main.89cc2393.css.map",
+    "main.9c54f6e1.js.map": "/B-MCode/topbooks/static/js/main.9c54f6e1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.89cc2393.css",
+    "static/js/main.9c54f6e1.js"
+  ]
+}
